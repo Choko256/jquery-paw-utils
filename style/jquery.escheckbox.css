@@ -1,0 +1,9 @@
+.es-checkbox {
+	cursor: pointer;
+	margin: 2px;
+	width: 32px;
+	height: 32px;
+}
+
+.es-checkbox.checked {
+}
