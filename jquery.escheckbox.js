@@ -16,7 +16,7 @@
 			var $cbx = $(this);
 			$cbx.wrap('<span class="es-checkbox"></span>');
 			$cbx.hide();
-			$cbx.after('<img src="' + prm.imgpath + ($cbx.is(":checked") ? prm.img.checked : prm.img.unchecked) + '" alt="ES Checkbox" />');
+			$cbx.after('<img src="' + prm.imgpath + ($cbx.is(":checked") ? prm.img.checked : prm.img.unchecked) + '" alt="ES Checkbox" height="24px" />');
 
 			var $parent = $cbx.parent(".es-checkbox");
 
